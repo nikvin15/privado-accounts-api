@@ -14,8 +14,15 @@ public class UserProfileD {
 	private String phone;
 	private String password;
 	private String dob;
-	private String panCardNumber;
 	private String aadhaarNumber;
+
+	public String getAadhaarNumber() {
+             return aadhaarNumber;
+	}
+
+	public String setAadhaarNumber(String aadhaarNumber) {
+             this.aadhaarNumber = aadhaarNumber;
+	}
 
 	public String getId() {
 		return id;
