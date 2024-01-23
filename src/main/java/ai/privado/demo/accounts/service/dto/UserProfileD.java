@@ -14,6 +14,8 @@ public class UserProfileD {
 	private String phone;
 	private String password;
 	private String dob;
+	private String panCardNumber;
+	private String aadhaarNumber;
 
 	public String getId() {
 		return id;
