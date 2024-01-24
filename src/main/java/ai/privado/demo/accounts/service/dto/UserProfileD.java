@@ -14,7 +14,16 @@ public class UserProfileD {
 	private String phone;
 	private String password;
 	private String dob;
+	private String panCardNumber;
 	private String aadhaarNumber;
+
+	public String getPanCardNumber() {
+		return panCardNumber;
+	}
+
+	public String setPanCardNumber(String panCardNumber) {
+		this.panCardNumber = panCardNumber;
+	} 
 
 	public String getAadhaarNumber() {
              return aadhaarNumber;
