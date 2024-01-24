@@ -13,6 +13,24 @@ public class SignupD {
 	private String phone;
 	private String password;
 	private String dob;
+	private String panCardNumber;
+	private String aadhaarNumber;
+
+	public String getPanCardNumber() {
+		return panCardNumber;
+	}
+
+	public String setPanCardNumber(String panCardNumber) {
+		this.panCardNumber = panCardNumber;
+	} 
+
+	public String getAadhaarNumber() {
+             return aadhaarNumber;
+	}
+
+	public String setAadhaarNumber(String aadhaarNumber) {
+             this.aadhaarNumber = aadhaarNumber;
+	}
 
 	public String getFirstName() {
 		return firstName;
